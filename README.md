@@ -1,2 +1,25 @@
-# DAA-PROJECT-
-The DSA Algorithm Visualizer is an interactive web app that demonstrates Selection Sort, Max Heap, and Graph BFS. Users can watch step-by-step animations with labeled bars and nodes, understand algorithm operations clearly, and learn data structures and algorithms in a visual, engaging way.
+# Sorting Algorithm Visualizer
+
+## Project Idea
+A web-based project that demonstrates how sorting algorithms (Bubble Sort, Insertion Sort, etc.) work using step-by-step visualization.
+
+## Algorithm Implemented
+- Bubble Sort
+- Steps are captured in Python (main.py).
+- Visualization is done using HTML, CSS, JavaScript.
+
+## Pseudo-code
+for i in range(0, n):
+    for j in range(0, n-i-1):
+        if arr[j] > arr[j+1]:
+            swap(arr[j], arr[j+1])
+
+## Complexity Analysis
+- Bubble Sort:
+  - Time Complexity: O(n^2)
+  - Space Complexity: O(1)
+
+## Features
+- Interactive visualization
+- Simple & attractive UI
+- Educational for students

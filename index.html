@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DSA Algorithm Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>DSA Algorithm Visualizer</h1>
+    <p>Visualize Sorting, Heap, and Graph algorithms step by step</p>
+  </header>
+
+  <section id="controls">
+    <label for="algo">Choose Algorithm:</label>
+    <select id="algo">
+      <option value="bubble">Bubble Sort</option>
+      <option value="heap">Heapify (Max Heap)</option>
+      <option value="bfs">Graph BFS</option>
+    </select>
+    <button onclick="startVisualization()">Start</button>
+  </section>
+
+  <section id="visualization">
+    <div id="array-container"></div>
+    <svg id="graph-container"></svg>
+  </section>
+
+  <section id="steps">
+    <h3>Algorithm Steps</h3>
+    <div id="step-log"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
